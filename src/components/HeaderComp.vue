@@ -7,9 +7,9 @@
         </div>
 
         <div class="container2">
-            <header class="header">
-                <h2 class="about-me">About Me</h2>
-                <h2 class="my-projects">My Projects</h2>
+            <header class="header">              
+                <router-link class="about-me" v-bind:to="{ name: 'about'}">About Me</router-link>             
+                <router-link class="my-projects" v-bind:to="{ name: 'projects'}">My Projects</router-link>
             </header>
         </div>
     </div>
@@ -17,6 +17,7 @@
 </template>
 
 <script>
+
 </script>
 
 <style>
@@ -53,6 +54,9 @@
 
 .about-me,
 .my-projects {
+    padding-top: 20px;
     padding-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
 }
 </style>
