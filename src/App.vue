@@ -5,8 +5,7 @@
   <header>
     <h1>main view</h1>
   </header>
-
-  <RouterView />
+  <RouterView/>
 </template>
 
 <script>

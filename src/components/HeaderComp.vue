@@ -3,11 +3,13 @@
         <div class="container1">
             <header class="header">
                 <h2 class="title">Seth Chesky Portfolio</h2>
+                
             </header>
         </div>
 
         <div class="container2">
-            <header class="header">              
+            <header class="header">
+                <router-link class="home" v-bind:to="{ name: 'home' }">Home</router-link>              
                 <router-link class="about-me" v-bind:to="{ name: 'about'}">About Me</router-link>             
                 <router-link class="my-projects" v-bind:to="{ name: 'projects'}">My Projects</router-link>
             </header>
@@ -53,7 +55,8 @@
 }
 
 .about-me,
-.my-projects {
+.my-projects,
+.home {
     padding-top: 20px;
     padding-left: 20px;
     font-size: 24px;
