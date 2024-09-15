@@ -1,4 +1,5 @@
 <template>
+  <HeaderComp />
   <div class="about">
     <h1>About Me</h1>
     <p>meeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
@@ -11,7 +12,15 @@
   </div>
 </template>
 
+<script>
+import HeaderComp from '../components/HeaderComp.vue';
 
+export default {
+  components: {
+    HeaderComp
+  }
+};
+</script>
 
 <style>
 @media (min-width: 1024px) {

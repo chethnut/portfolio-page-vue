@@ -1,9 +1,18 @@
-<script setup>
-// import TheWelcome from '../components/TheWelcome.vue'
-</script>
+
 
 <template>
-  <main>
-    <!-- <TheWelcome /> -->
-  </main>
+  <HeaderComp />
+  <p>
+    main view
+  </p>
 </template>
+
+<script>
+import HeaderComp from '../components/HeaderComp.vue';
+
+export default {
+  components: [
+    HeaderComp
+  ]
+};
+</script>
