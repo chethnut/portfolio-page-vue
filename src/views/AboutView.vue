@@ -1,8 +1,12 @@
 <template>
   <HeaderComp/>
+  <div class="img-container">
+    <img class="profile-picture" src="../assets/Profile-Picture-2.jpg">
+  </div>
+    
   <div class="about-container">
-    <h1 class="about-me">About Me</h1>
-    <h2 class="characteristics">Junior Software Developer | Luthier | Woodworker | Violinist</h2>
+    
+    <h2 class="characteristics">Software Developer | Luthier | Woodworker | Violinist</h2>
     <p>
 
     </p>
@@ -32,5 +36,14 @@ export default {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.profile-picture {
+  height: 300px;
+  
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>
