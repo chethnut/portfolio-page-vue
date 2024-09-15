@@ -1,6 +1,6 @@
 <template>
-    <HeaderComp />
-    <h1>My Projects View</h1>
+    <HeaderComp/>
+    <h1>Projects View</h1>
     <h3>component goes here</h3>
 </template>
 
@@ -9,8 +9,14 @@
     import HeaderComp from '../components/HeaderComp.vue';
 
     export default {
-        components: [
+        components: {
             HeaderComp
-        ]
-    };
+        }
+    }
 </script>
+
+<style>
+.h1 {
+    text-align: center;
+}
+</style>
