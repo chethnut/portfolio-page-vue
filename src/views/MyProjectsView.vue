@@ -1,7 +1,6 @@
 <template>
     <HeaderComp/>
     <h1>Projects View</h1>
-    <h3>component goes here</h3>
     <ProjectCard 
         v-for="project in projects" 
         :key="project.id" 

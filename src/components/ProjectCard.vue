@@ -1,6 +1,5 @@
 <template>
     <div class="project-card">
-        <h1>Project Card</h1>
         <h3>{{ title }}</h3>
         <p>{{ description }}</p>
     </div>
