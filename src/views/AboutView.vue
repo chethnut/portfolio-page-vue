@@ -8,7 +8,7 @@
     
     <h2 class="characteristics">Software Developer | Luthier | Woodworker | Violinist</h2>
     <p>
-
+      
     </p>
   </div>
 </template>
