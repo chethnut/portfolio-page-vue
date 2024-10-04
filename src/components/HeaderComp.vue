@@ -8,9 +8,9 @@
         </div>
 
         <div class="container2">
-            <header class="header">             
+            <header class="header">  
+                <router-link class="my-projects" v-bind:to="{ name: 'projects'}">My Projects</router-link>           
                 <router-link class="about-me" v-bind:to="{ name: 'about'}">About Me</router-link>             
-                <router-link class="my-projects" v-bind:to="{ name: 'projects'}">My Projects</router-link>
             </header>
         </div>
     </div>
