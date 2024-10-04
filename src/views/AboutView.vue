@@ -1,15 +1,16 @@
 <template>
   <HeaderComp/>
-  <div class="img-container">
-    <img class="profile-picture" src="../assets/Profile-Picture-2.jpg">
-  </div>
+  
     
   <div class="about-container">
-    
-    <h2 class="characteristics">Software Developer | Luthier | Woodworker | Violinist</h2>
-
+    <div class="pic/char-container">
+      <div class="img-container">
+        <img class="profile-picture" src="../assets/Profile-Picture-2.jpg">
+      </div>
+      <h3 class="characteristics">Software Developer | Luthier | Woodworker | Violinist</h3>
+    </div>
     <div class="blurb">
-      
+
       <p>All my life I've been captivated by the magic of making.</p>
 
       <p>Early on I developed a passion for making music. I started my journey at the young age of four with the violin and still play it to this day. As I matured, my fascination with craftsmanship led me to pursue certification in lutherie, diving into the intricate world of instrument repair and violin making. Although I thoroughly enjoyed that line of work, it unfortunately could not provide the life my wife and I were hoping for. After coming to that realization, I thought long and hard about what could fulfill my desire for creation while also being a lucrative career path. That's what brought me to software development!</p>
@@ -36,18 +37,11 @@ export default {
 </script>
 
 <style>
-/* @media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-} */
 .about-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
 }
 .profile-picture {
   height: 300px;
@@ -63,5 +57,9 @@ export default {
     padding: 16px;
     margin: 16px;
     border-radius: 8px;
+}
+.characteristics {
+  display: flex;
+  text-align: center;
 }
 </style>
