@@ -15,7 +15,10 @@
       </div>
     </div>
     <div class="blurb">
-
+      <h3>Professional Experience</h3>
+      <h4>Java Development Bootcamp Student</h4>
+      <p>Tech Elevator</p>
+      <p>Mar 2024 - Jun 2024</p>
       
 
     </div>
@@ -45,7 +48,7 @@ export default {
 }
 .profile-picture {
   height: 280px;
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 8px;
   margin-bottom: 6px;
 }

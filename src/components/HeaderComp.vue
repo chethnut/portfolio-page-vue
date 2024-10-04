@@ -23,12 +23,15 @@
 
 <style>
 .header-container {
-    border-bottom: 2px solid #6ca6c1;
+    width: 100%;
+    border-bottom: 2px solid #ffe66d;
+    background-color: #343434;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
-    padding-bottom: 10px;
+    align-items: center;
+    padding: 0;
+    margin: 0;
 }
 
 .container1 {
@@ -36,6 +39,8 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    padding: 0;
+    margin: 0;
 }
 
 .container2 {
@@ -43,7 +48,7 @@
     flex-direction: column;
     justify-content: flex-end;
     padding-right: 20px;
-    
+    margin: 0;
 }
 
 .header {
@@ -52,15 +57,20 @@
     justify-content: flex-start;
     align-items: center;
     padding-left: 20px;
-
+    margin: 0;
 }
 
 .about-me,
-.my-projects,
-.home {
-    padding-top: 20px;
+.my-projects {
     padding-left: 20px;
     font-size: 24px;
     font-weight: bold;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 </style>

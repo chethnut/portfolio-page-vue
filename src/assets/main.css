@@ -1,15 +1,28 @@
 /* src/main.css */
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #f7fff7;
+    background-color: #2f3061;
 } 
 
-h1, h2, h3 {
-    color: #2f3061;
+h1, h2, a {
+    color: #6ca6c1;
+    text-decoration: none;
+}
+
+h4 {
+    color: #6ca6c1;
+}
+
+a:hover {
+    color: #ffe66d;
 }
 
 p {
-    color: #343434;
+    color: #f7fff7;
+}
+
+h3 {
+    color: #ffe66d;
 }
 
 
