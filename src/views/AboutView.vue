@@ -7,7 +7,12 @@
       <div class="img-container">
         <img class="profile-picture" src="../assets/Profile-Picture-2.jpg">
       </div>
-      <h3 class="characteristics">Software Developer | Luthier | Woodworker | Violinist</h3>
+      <div class="characteristics-container">
+        <p>Software Developer</p>
+        <p>Luthier</p>
+        <p>Woodworker</p>
+        <p>Violinist</p>
+      </div>
     </div>
     <div class="blurb">
 
@@ -40,12 +45,17 @@ export default {
 .about-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: row;
+  padding-right: 20%;
+  padding-left: 20%;
+  padding-top: 5%;
 }
 .profile-picture {
-  height: 300px;
-  
+  height: 280px;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin-bottom: 6px;
 }
 .img-container {
   display: flex;
@@ -54,12 +64,20 @@ export default {
 }
 .blurb {
     border: 1px solid black;
-    padding: 16px;
-    margin: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    
+    margin-left: 16px;
     border-radius: 8px;
 }
-.characteristics {
+.characteristics-container {
   display: flex;
-  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.characteristics-container p {
+  margin: 6px;
+  font-weight: bold;
 }
 </style>
