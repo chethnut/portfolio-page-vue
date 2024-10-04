@@ -28,7 +28,7 @@ export default {
 
 <style>
 .project-card {
-    border: 1px solid black;
+    border: 2px solid #343434;
     padding: 16px;
     margin: 16px;
     border-radius: 8px;

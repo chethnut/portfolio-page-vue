@@ -23,10 +23,12 @@
 
 <style>
 .header-container {
+    border-bottom: 2px solid #6ca6c1;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    padding-bottom: 10px;
 }
 
 .container1 {

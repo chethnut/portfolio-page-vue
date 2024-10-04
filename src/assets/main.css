@@ -1,2 +1,16 @@
-@import './base.css';
+/* src/main.css */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f7fff7;
+} 
+
+h1, h2, h3 {
+    color: #2f3061;
+}
+
+p {
+    color: #343434;
+}
+
+
 
