@@ -8,8 +8,7 @@
         </div>
 
         <div class="container2">
-            <header class="header">
-                <router-link class="home" v-bind:to="{ name: 'home' }">Home</router-link>              
+            <header class="header">             
                 <router-link class="about-me" v-bind:to="{ name: 'about'}">About Me</router-link>             
                 <router-link class="my-projects" v-bind:to="{ name: 'projects'}">My Projects</router-link>
             </header>

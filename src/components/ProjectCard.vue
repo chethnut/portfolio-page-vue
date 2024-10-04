@@ -2,6 +2,8 @@
     <div class="project-card">
         <h3>{{ title }}</h3>
         <p>{{ description }}</p>
+        <p>{{ contributions }}</p>
+        <p>{{ technologies }}</p>
     </div>
 </template>
 
@@ -12,6 +14,12 @@ export default {
             type: String
         },
         description: {
+            type: String
+        },
+        contributions: {
+            type: String
+        },
+        technologies: {
             type: String
         }
     }
