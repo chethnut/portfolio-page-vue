@@ -7,12 +7,11 @@
       <div class="img-container">
         <img class="profile-picture" src="../assets/Profile-Picture-2.jpg">
       </div>
-      <!-- <div class="characteristics-container">
-        <p>Software Developer</p>
-        <p>Luthier</p>
-        <p>Woodworker</p>
-        <p>Violinist</p>
-      </div> -->
+      <div class="links">
+        <a href="https://www.linkedin.com/in/sethchesky" target="_blank" rel="noopener noreferrer">· LinkedIn</a>
+        <a href="https://github.com/chethnut" target="_blank" rel="noopener noreferrer">· GitHub</a>
+        <a href="/src/assets/Resume.pdf" target="_blank" rel="noopener noreferrer">· Resume</a>
+      </div>
     </div>
     <div class="info-container">
       <div class="blurb">
@@ -20,6 +19,14 @@
 
         <h4>Software Development Bootcamp</h4>
         <p class="school-title-field">Tech Elevator</p>
+        <p>Mar 2024 - Jun 2024</p>
+        <p class="border-element">Spent three months diving into the intricacies of back and front end development and completed three capstones focusing on object-oriented programming, RESTful API's, relational databases, and web development frameworks</p>
+
+        <h4>All Strings Attached</h4>
+        <p class="school-title-field">Luthier</p>
+        <p>Dec 2021 - Oct 2024</p>
+        <p>Completed over 2000 repairs on violins and violas while coordinating with team members to handle walk-in customer requests and meet weekly shop quotas</p>
+
       </div>
       <div class="blurb">
         <h3>Education</h3>
@@ -41,6 +48,8 @@
       </div>
       <div class="blurb">
         <h3>Skills & Technologies</h3>
+        <h4>Full Stack Developer</h4>
+        <p class="school-title-field">Java · C# · JavaScript · HTML · CSS · Vue.js · SQL · Git · JDBC Template · RESTful API · PostgreSQL</p>
       </div>
     </div>
   </div>
@@ -83,6 +92,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 16px;
 }
 
 .blurb {
@@ -121,4 +131,17 @@ export default {
   justify-content: center;
   padding-top: 2%;
 }
+
+.links {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  align-items: flex-start;
+  padding-left: 30%;
+}
+
+a {
+  padding-bottom: 10px;
+}
+
 </style>

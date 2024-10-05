@@ -49,6 +49,8 @@
     justify-content: flex-end;
     padding-right: 20px;
     margin: 0;
+    height: 100%;
+    padding-top: 10px;
 }
 
 .header {
