@@ -1,9 +1,9 @@
 <template>
     <div class="project-card">
         <h3>{{ title }}</h3>
+        <h4>{{ technologies }}</h4>
         <p>{{ description }}</p>
         <p>{{ contributions }}</p>
-        <p>{{ technologies }}</p>
     </div>
 </template>
 
@@ -28,7 +28,7 @@ export default {
 
 <style>
 .project-card {
-    border: 2px solid #f7fff7;
+    border: 2px solid #222222;
     padding: 16px;
     margin: 16px;
     border-radius: 8px;
