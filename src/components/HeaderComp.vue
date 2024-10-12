@@ -25,7 +25,7 @@
 .header-container {
     width: 100%;
     border-bottom: 2px solid #ffe66d;
-    background-color: #343434;
+    background-color: #e7eee7;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
