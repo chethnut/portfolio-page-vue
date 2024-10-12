@@ -1,9 +1,12 @@
 <template>
-    <div class="project-card">
-        <h3>{{ title }}</h3>
-        <h4>{{ technologies }}</h4>
-        <p>{{ description }}</p>
-        <p>{{ contributions }}</p>
+    <div class="project-card-container">
+    <img class="project-img" :src="img" alt="Project Image"/>
+        <div class="project-card">
+            <h3>{{ title }}</h3>
+            <h4>{{ technologies }}</h4>
+            <p>{{ description }}</p>
+            <p>{{ contributions }}</p>
+        </div>
     </div>
 </template>
 
@@ -21,6 +24,9 @@ export default {
         },
         technologies: {
             type: String
+        },
+        img: {
+            type: String
         }
     }
 }
@@ -28,10 +34,21 @@ export default {
 
 <style>
 .project-card {
-    border: 2px solid #222222;
     padding: 16px;
     margin: 16px;
     border-radius: 8px;
 }
+.project-img {
+    border: 2px solid #f7fff7;
+    border-radius: 8px;
+    height: 560px;
+}
+.project-card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
 </style>
 
