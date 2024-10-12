@@ -31,7 +31,7 @@
     align-items: center;
     padding: 0;
     margin: 0;
-    box-shadow: 0 1px 4px #e7eee7;
+    /* box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2); */
 }
 
 .container1 {

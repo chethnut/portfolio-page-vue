@@ -71,7 +71,7 @@ export default {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-right: 10%;
-    padding-left: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 </style>

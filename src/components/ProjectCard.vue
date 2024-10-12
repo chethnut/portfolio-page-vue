@@ -42,6 +42,7 @@ export default {
     border: 2px solid #f7fff7;
     border-radius: 8px;
     height: 560px;
+    margin-right: 20px;
 }
 .project-card-container {
     display: flex;
