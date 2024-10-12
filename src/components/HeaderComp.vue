@@ -24,7 +24,6 @@
 <style>
 .header-container {
     width: 100%;
-    border-bottom: 2px solid #ffe66d;
     background-color: #e7eee7;
     display: flex;
     flex-direction: row;
@@ -32,6 +31,7 @@
     align-items: center;
     padding: 0;
     margin: 0;
+    box-shadow: 0 1px 4px #e7eee7;
 }
 
 .container1 {
@@ -47,7 +47,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding-right: 20px;
+    padding-right: 30px;
     margin: 0;
     height: 100%;
     padding-top: 10px;
@@ -64,8 +64,8 @@
 
 .about-me,
 .my-projects {
-    padding-left: 20px;
-    font-size: 24px;
+    padding-left: 30px;
+    font-size: 26px;
     font-weight: bold;
 }
 
