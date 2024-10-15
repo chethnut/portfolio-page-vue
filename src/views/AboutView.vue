@@ -1,14 +1,12 @@
 <template>
   <HeaderComp />
   <div class="about-container">
-    <div class="characteristics-container">
-      <h3 class="characteristics">Software Developer</h3>
-      <h3 class="characteristics">Luthier</h3>
-      <h3 class="characteristics">Violinist</h3>
-    </div>
-    <div class="pic/char-container">
-      <div class="img-container">
-        <img class="profile-picture" src="../assets/Profile-Picture-2.jpg">
+    <div class="img-container">
+      <img class="profile-picture" src="../assets/Profile-Picture-2.jpg">
+      <div class="characteristics-container">
+        <h3 class="characteristics">Software Developer</h3>
+        <h3 class="characteristics">Luthier</h3>
+        <h3 class="characteristics">Violinist</h3>
       </div>
     </div>
     <!-- <div class="links">
@@ -18,8 +16,19 @@
       </div> -->
   </div>
   <div class="info-container">
+
     <div class="blurb">
-      <h3>Experience</h3>
+
+      <h3 class="section-title">Skills & Technologies</h3>
+
+      <h4>Full Stack Developer</h4>
+      <p class="school-title-field">Java · C# · JavaScript · HTML · CSS · Vue.js · SQL · Git · JDBC Template · RESTful
+        API · PostgreSQL</p>
+    </div>
+
+    <div class="blurb">
+
+      <h3 class="section-title">Experience</h3>
 
       <h4>Software Development Bootcamp</h4>
       <p class="school-title-field">Tech Elevator</p>
@@ -36,7 +45,8 @@
 
     </div>
     <div class="blurb">
-      <h3>Education</h3>
+
+      <h3 class="section-title">Education</h3>
 
       <h4>Tech Elevator</h4>
       <p class="school-title-field">Software Development</p>
@@ -53,12 +63,7 @@
       <p>Sept 2018 - Dec 2019</p>
       <p>Spent 3 semesters working towards a Violin Performance Degree (Incomplete)</p>
     </div>
-    <div class="blurb">
-      <h3>Skills & Technologies</h3>
-      <h4>Full Stack Developer</h4>
-      <p class="school-title-field">Java · C# · JavaScript · HTML · CSS · Vue.js · SQL · Git · JDBC Template · RESTful
-        API · PostgreSQL</p>
-    </div>
+    
   </div>
 </template>
 
@@ -79,8 +84,10 @@ export default {
   align-items: center;
   flex-direction: row;
   /* padding-right: 20%; */
-  padding-left: 6%;
-  padding-top: 1%;
+  padding-left: 9.5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #eef7ee;
 }
 
 .characteristics {
@@ -88,13 +95,15 @@ export default {
   margin-right: 20%;
   margin: 0px;
   padding-bottom: 10px;
+  
 }
 
 .characteristics-container {
   display: flex;
   flex-direction: column;
-  padding: 0px;
-  margin: 0px;
+  padding-left: 10%;
+  flex-grow: 1;
+  white-space: nowrap;
 }
 
 .info-container {
@@ -116,12 +125,12 @@ export default {
   justify-content: flex-end;
   align-items: center;
   margin-bottom: 16px;
-  padding-left: 420%;
+  /* padding-left: 10%; */
 }
 
 .blurb {
-  margin-left: 16px;
-  margin-bottom: 16px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .school-title-field {
@@ -142,6 +151,12 @@ export default {
 }
 
 a {
+  padding-bottom: 10px;
+}
+
+.section-title{
+  display: flex;
+  justify-content: center;
   padding-bottom: 10px;
 }
 </style>
