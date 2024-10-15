@@ -63,9 +63,11 @@ export default {
 <style>
 .view-title {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     font-size: 36px;
     padding-top: 2%;
+    padding-left: 8%;
+    padding-bottom: 1.8%;
 }
 .projectCard-container {
     display: flex;

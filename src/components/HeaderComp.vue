@@ -36,7 +36,7 @@
 
 .container1 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
     padding: 0;
@@ -45,7 +45,7 @@
 
 .container2 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-end;
     padding-right: 30px;
     margin: 0;
