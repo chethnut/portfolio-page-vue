@@ -87,7 +87,7 @@ export default {
     flex-direction: column;
     padding-right: 5%;
     padding-left: 5%;
-    padding-top: 4%;
+    padding-top: 2%;
 }
 
 </style>

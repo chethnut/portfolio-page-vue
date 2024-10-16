@@ -8,9 +8,10 @@
         </div>
 
         <div class="container2">
-            <header class="header">  
-                <router-link class="my-projects" v-bind:to="{ name: 'projects'}">My Projects</router-link>           
-                <router-link class="about-me" v-bind:to="{ name: 'about'}">About Me</router-link>             
+            <header class="header">
+                <router-link class="about-me" v-bind:to="{ name: 'about'}">Home</router-link>          
+                <router-link class="resume" v-bind:to="{ name: 'resume'}">Resumé</router-link>     
+                <router-link class="my-projects" v-bind:to="{ name: 'projects'}">My Projects</router-link>  
             </header>
         </div>
     </div>
@@ -41,6 +42,7 @@
     align-items: flex-start;
     padding: 0;
     margin: 0;
+    padding-left: 20px;
 }
 
 .container2 {
@@ -62,7 +64,8 @@
 }
 
 .about-me,
-.my-projects {
+.my-projects,
+.resume {
     padding-left: 30px;
     font-size: 26px;
     font-weight: bold;

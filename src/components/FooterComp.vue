@@ -3,7 +3,7 @@
         <div class="links-container">
             <a href="https://www.linkedin.com/in/sethchesky" target="_blank" rel="noopener noreferrer">· LinkedIn</a>
             <a href="https://github.com/chethnut" target="_blank" rel="noopener noreferrer">· GitHub</a>
-            <a href="/assets/Resume.pdf" target="_blank" rel="noopener noreferrer">· Resume</a>
+            <a href="/assets/Resume.pdf" target="_blank" rel="noopener noreferrer">· Resumé</a>
         </div>
     </footer>
 </template>

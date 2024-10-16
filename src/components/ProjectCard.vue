@@ -50,6 +50,9 @@ export default {
     align-items: center;
     padding-bottom: 5%;
 }
+h4 {
+    color: #343434;
+}
 
 </style>
 
