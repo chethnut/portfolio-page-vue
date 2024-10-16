@@ -67,6 +67,11 @@
     padding-left: 30px;
     font-size: 26px;
     font-weight: bold;
+    color: #343434;
+}
+
+.title {
+    color:#343434;
 }
 
 html, body {

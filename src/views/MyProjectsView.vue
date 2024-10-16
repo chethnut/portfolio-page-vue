@@ -11,6 +11,7 @@
             :img="project.img"
             />
     </div>
+    <FooterComp/>
 </template>
 
 <script>
@@ -20,11 +21,13 @@ import ProjectCard from '@/components/ProjectCard.vue';
 import NominEatImg from '../assets/NominEat.png';
 import TenmoImg from '../assets/Tenmo.png';
 import VendingMachineImg from '../assets/Vending-Machine.png';
+import FooterComp from '../components/FooterComp.vue';
 
 export default {
     components: {
         HeaderComp,
-        ProjectCard
+        ProjectCard,
+        FooterComp
     },
     data() {
         return {
