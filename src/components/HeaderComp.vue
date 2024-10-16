@@ -50,7 +50,6 @@
     padding-right: 30px;
     margin: 0;
     height: 100%;
-    padding-top: 10px;
 }
 
 .header {

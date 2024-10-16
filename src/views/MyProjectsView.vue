@@ -1,6 +1,8 @@
 <template>
     <HeaderComp />
-    <h3 class="view-title">Projects</h3>
+    <div class="title-wrapper">
+        <h3 class="view-title">Projects</h3>
+    </div>
     <div class="projectCard-container">
         <ProjectCard v-for="project in projects" 
             :key="project.id" 
@@ -64,13 +66,20 @@ export default {
 </script>
 
 <style>
+.title-wrapper {
+    text-align: center;
+}
+
 .view-title {
-    display: flex;
-    justify-content: flex-start;
     font-size: 50px;
-    padding-top: 2%;
-    padding-left: 5%;
-    padding-bottom: 1.8%;
+    padding-top: 3%;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #343434;
+    max-width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+    
 }
 .projectCard-container {
     display: flex;
@@ -78,6 +87,7 @@ export default {
     flex-direction: column;
     padding-right: 5%;
     padding-left: 5%;
+    padding-top: 4%;
 }
 
 </style>
