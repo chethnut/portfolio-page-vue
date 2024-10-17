@@ -2,7 +2,7 @@
     <div class="header-container">
         <div class="container1">
             <header class="header">
-                <h2 class="title">Seth Chesky Portfolio (In Progress)</h2>
+                <h2 class="title">Seth Chesky Portfolio</h2>
                 
             </header>
         </div>
