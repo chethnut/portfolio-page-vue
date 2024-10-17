@@ -15,8 +15,8 @@
 
       <h3 class="section-title">Skills & Technologies</h3>
 
-      <h4>Full Stack Developer</h4>
-      <p class="school-title-field">Java · C# · JavaScript · HTML · CSS · Vue.js · SQL · Git · JDBC Template · RESTful
+      <h4 class="position">Full Stack Developer</h4>
+      <p class="skills">Java · C# · JavaScript · HTML · CSS · Vue.js · SQL · Git · JDBC Template · RESTful
         API · PostgreSQL</p>
     </div>
   </div>
@@ -116,5 +116,14 @@ a {
   display: flex;
   justify-content: center;
   padding-bottom: 10px;
+}
+
+.position {
+  text-align: center;
+}
+
+.skills {
+  color: #343434;
+  font-weight: 0;
 }
 </style>

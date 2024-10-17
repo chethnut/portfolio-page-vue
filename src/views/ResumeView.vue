@@ -4,15 +4,6 @@
 
 <div class="blurb">
 
-  <h3 class="section-title">Skills & Technologies</h3>
-
-  <h4>Full Stack Developer</h4>
-  <p class="school-title-field">Java · C# · JavaScript · HTML · CSS · Vue.js · SQL · Git · JDBC Template · RESTful
-    API · PostgreSQL</p>
-</div>
-
-<div class="blurb">
-
   <h3 class="section-title">Experience</h3>
 
   <h4>Software Development Bootcamp</h4>
@@ -48,7 +39,13 @@
   <p>Sept 2018 - Dec 2019</p>
   <p>Spent 3 semesters working towards a Violin Performance Degree (Incomplete)</p>
 </div>
+<div class="blurb">
 
+<h3 class="section-title">Skills & Technologies</h3>
+
+<p class="skills">Java · C# · JavaScript · HTML · CSS · Vue.js · SQL · Git · JDBC Template · RESTful
+  API · PostgreSQL</p>
+</div>
 </div>
 <FooterComp/>
 </template>
@@ -66,5 +63,12 @@ export default {
 </script>
 
 <style>
+.school-title-field {
+  color: #6ca6c1;
+}
 
+.skills {
+  font-weight: 0;
+  text-align: center;
+}
 </style>
