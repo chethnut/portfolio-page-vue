@@ -72,7 +72,7 @@ export default {
 
 .view-title {
     font-size: 50px;
-    padding-top: 3%;
+    padding-top: 1%;
     padding-bottom: 10px;
     border-bottom: 2px solid #343434;
     max-width: 300px;
