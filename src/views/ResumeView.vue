@@ -1,5 +1,8 @@
 <template>
     <HeaderComp/>
+    <div class="title-wrapper">
+      <h3 class="view-title">Resume</h3>
+    </div>
     <div class="info-container">
 
 <div class="blurb">
@@ -69,6 +72,22 @@ export default {
 
 .skills {
   font-weight: 0;
+  text-align: center;
+}
+
+.view-title {
+  font-size: 50px;
+  padding-top: 3%;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #343434;
+  max-width: 300px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline-block;
+    
+}
+
+.title-wrapper {
   text-align: center;
 }
 </style>
