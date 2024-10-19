@@ -1,9 +1,9 @@
 <template>
-    <HeaderComp/>
+  <HeaderComp/>
     <div class="title-wrapper">
       <h3 class="view-title">Resumé</h3>
     </div>
-    <div class="info-container">
+  <div class="info-container">
 
 <div class="blurb">
 
