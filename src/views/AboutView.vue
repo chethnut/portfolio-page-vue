@@ -5,7 +5,7 @@
       <img class="profile-picture" src="../assets/Profile-Picture-2.jpg">
       <div class="characteristics-container">
         <h3 class="characteristics">Software Developer</h3>
-        <h3 class="characteristics">Front End</h3>
+        <h3 class="characteristics">Luthier</h3>
         <h3 class="characteristics">Violinist</h3>
       </div>
     </div>
