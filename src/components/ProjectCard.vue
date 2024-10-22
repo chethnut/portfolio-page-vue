@@ -4,8 +4,12 @@
         <div class="project-card">
             <h3>{{ title }}</h3>
             <h4>{{ technologies }}</h4>
+            <p class="demo-title" v-if="demoLink">
+                Project Demo:
+                <a class="demo-link" :href="demoLink" target="_blank" rel="noopener noreferrer">{{ demoLink }}</a>
+            </p>
             <p>{{ description }}</p>
-            <p>{{ contributions }}</p>
+            <p>{{ contributions }}</p>   
         </div>
     </div>
 </template>
@@ -26,6 +30,9 @@ export default {
             type: String
         },
         img: {
+            type: String
+        },
+        demoLink: {
             type: String
         }
     }
@@ -52,6 +59,11 @@ export default {
 }
 h4 {
     color: #343434;
+}
+.demo-link {
+    font-size: 22px;
+    color: #343434;
+    font-weight: 400;
 }
 
 </style>
