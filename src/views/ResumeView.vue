@@ -84,6 +84,7 @@ export default {
   padding-left: 20px;
   padding-right: 20px;
   display: inline-block;
+  margin-bottom: 2%;
     
 }
 
