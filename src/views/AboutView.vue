@@ -13,11 +13,12 @@
   <div class="info-container">
     <div class="blurb">
 
-      <h3 class="section-title">Skills & Technologies</h3>
+      <h3 class="section-title">Professional Summary</h3>
 
-      <h4 class="position">Full Stack Developer</h4>
-      <p class="skills">Java · C# · JavaScript · HTML · CSS · Vue.js · SQL · Git · JDBC Template · RESTful
-        API · PostgreSQL</p>
+      <p class="professional-summary">Versatile software developer with a unique and creative background, committed to continuous learning and growth    
+      within a collaborative team environment. Pursuing a position as a Junior Software Developer to bring a positive 
+      perspective, exceptional problem-solving abilities, and innovative thinking to enhance cross-functional team 
+      collaboration.</p>
     </div>
   </div>
   <FooterComp/>
@@ -87,8 +88,8 @@ export default {
 }
 
 .blurb {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 19px;
+  margin-bottom: 40px;
 }
 
 .school-title-field {
@@ -118,12 +119,10 @@ a {
   padding-bottom: 10px;
 }
 
-.position {
-  text-align: center;
-}
-
-.skills {
+.professional-summary {
   color: #343434;
   font-weight: 0;
+  display: inline;
+  white-space: no-wrap;
 }
 </style>
