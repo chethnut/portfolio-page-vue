@@ -42,7 +42,7 @@ export default {
   align-items: center;
   flex-direction: row;
   /* padding-right: 20%; */
-  padding-left: 9.5%;
+  padding-left: 8.25%;
   padding-top: 5%;
   padding-bottom: 3.75%;
   background-color: #eef7ee;
