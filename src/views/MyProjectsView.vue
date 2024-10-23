@@ -48,8 +48,8 @@ export default {
                 {
                     id: 2,
                     title: 'Tenmo',
-                    description: 'The second group project I completed at Tech Elevator was Tenmo, a Venmo clone that simulates money transfers between users through a CLI application. ', contributions: 'I leveraged my experience in Java and OOP to develop a RESTful API that facilitated transfers. I also utilized the JDBC template to log and retrieve data with a PostgreSQL database.',
-                    technologies: 'Java · JDBC template · RESTful API · OOP · Pair Programming · CLI',
+                    description: 'The second group project I completed at Tech Elevator was Tenmo, a Venmo clone that simulates money transfers between users through a CLI application. ', contributions: 'I leveraged my experience in Java and Object Oriented Programming to develop a RESTful API that facilitated transfers. I also utilized JDBC Template to log and retrieve data with a PostgreSQL relational database.',
+                    technologies: 'Java · JDBC Template · RESTful API · OOP · Pair Programming · CLI',
                     img: TenmoImg,
                     demoLink: null
                 },

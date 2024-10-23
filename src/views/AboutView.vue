@@ -4,9 +4,9 @@
     <div class="img-container">
       <img class="profile-picture" src="../assets/Profile-Picture-2.jpg">
       <div class="characteristics-container">
-        <h3 class="characteristics">Software Developer</h3>
-        <h3 class="characteristics">Luthier</h3>
-        <h3 class="characteristics">Violinist</h3>
+        <h3 class="characteristics">Full Stack Software Developer</h3>
+        <!-- <h3 class="characteristics">Full-Stack Engineer</h3> -->
+        <!-- <h3 class="characteristics">Mobile Developer</h3> -->
       </div>
     </div>
   </div>
@@ -59,7 +59,7 @@ export default {
 .characteristics-container {
   display: flex;
   flex-direction: column;
-  padding-left: 10%;
+  padding-left: 5%;
   flex-grow: 1;
   white-space: nowrap;
 }
