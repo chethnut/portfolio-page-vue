@@ -61,7 +61,7 @@ h4 {
     color: #343434;
 }
 .demo-link {
-    font-size: 22px;
+    font-size: 20px;
     color: #2f3061;
     font-weight: 400;
     text-decoration: underline;
