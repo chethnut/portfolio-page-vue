@@ -5,7 +5,7 @@
             <h3>{{ title }}</h3>
             <h4>{{ technologies }}</h4>
             <p class="demo-title" v-if="demoLink">
-                10 Minute Project Walkthrough:
+                Project Demo:
                 <a class="demo-link" :href="demoLink" target="_blank" rel="noopener noreferrer">{{ demoLink }}</a>
             </p>
             <p>{{ description }}</p>
