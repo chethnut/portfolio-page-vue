@@ -44,9 +44,17 @@ export default {
                     img: NominEatImg,
                     demoLink: 'https://youtu.be/udWPV8x38rE'
                 },
-
+                // {
+                //     id: 2,
+                //     title: 'Second Nature',
+                //     description: 'I recently joined a team that is working on a web application for a landscaping company called Second Nature. This is a company resource that allows employees to clock in and out, send kudos, search company equipment, and so much more.',
+                //     contributions: 'My first task when joining the team was to flesh out the training feature. Using Vue I have began building out the feature by adding a pdf list component and filling the list with mock data to work with while styling and ',
+                //     technologies: 'Vue.js · Axios · JavaScript · HTML · CSS · RESTful API · Java · JDBC Template · Postman · PostgreSQL · Springboot',
+                //     img: null,
+                //     demoLink: null
+                // },
                 {
-                    id: 2,
+                    id: 3,
                     title: 'Tenmo',
                     description: 'The second group project I completed at Tech Elevator was Tenmo, a Venmo clone that simulates money transfers between users through a CLI application. ', contributions: 'I leveraged my experience in Java and Object Oriented Programming to develop a RESTful API that facilitated transfers. I also utilized JDBC Template to log and retrieve data with a PostgreSQL relational database.',
                     technologies: 'Java · JDBC Template · RESTful API · OOP · Pair Programming · CLI',
@@ -55,7 +63,7 @@ export default {
                 },
 
                 {
-                    id: 3,
+                    id: 4,
                     title: 'Vending Machine',
                     description: 'The Vending Machine project was my first group capstone, where I collaborated with two peers to develop an application simulating vending machine transactions. We used Java and object-oriented programming principles to create modular code and implemented a command-line interface.',
                     contributions: 'Key features include product selection, transaction processing, and inventory management.',
