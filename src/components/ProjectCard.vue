@@ -1,6 +1,11 @@
 <template>
     <div class="project-card-container">
-    <img class="project-img" :src="img" alt="Project Image"/>
+        <!-- <img class="project-img" :src="img" alt="Project Image"/> -->
+        <div class="image-carousel">
+            <button class="arrow left" @click="prevImage">❮</button>
+            <img class="project-img" :src="currentImage" alt="Project Image"/>
+            <button class="arrow right" @click="nextImage">❯</button>
+        </div>
         <div class="project-card">
             <h3>{{ title }}</h3>
             <h4>{{ technologies }}</h4>
@@ -29,13 +34,34 @@ export default {
         technologies: {
             type: String
         },
-        img: {
-            type: String
+        images: {
+            type: Array,
+            default: () => []
         },
         demoLink: {
             type: String
         }
+    },
+    data() {
+        return {
+            currentIndex: 0
+        };
+    },
+    computed: {
+        currentImage() {
+            return this.images[this.currentIndex];
+        },
+    },
+    methods: {
+        nextImage() {
+            this.currentIndex = (this.currentIndex + 1) % this.images.length;
+        },
+        prevImage() {
+        this.currentIndex = 
+            (this.currentIndex - 1 + this.images.length) % this.images.length;
+        }
     }
+    
 }
 </script>
 
@@ -45,11 +71,39 @@ export default {
     margin: 16px;
     border-radius: 8px;
 }
+.image-carousel {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
 .project-img {
     border: 2px solid #f7fff7;
     border-radius: 8px;
     height: 560px;
     margin-right: 20px;
+}
+.arrow {
+    background-color: #2f3061;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+.arrow.left {
+    left: 10px;
+}
+.arrow.right {
+    right: 30px;
 }
 .project-card-container {
     display: flex;
