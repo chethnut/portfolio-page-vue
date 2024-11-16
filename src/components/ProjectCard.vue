@@ -2,9 +2,9 @@
     <div class="project-card-container">
         <!-- <img class="project-img" :src="img" alt="Project Image"/> -->
         <div class="image-carousel">
-            <button class="arrow left" @click="prevImage">❮</button>
+            <button v-if="imagesLength" class="arrow left" @click="prevImage">❮</button>
             <img class="project-img" :src="currentImage" alt="Project Image"/>
-            <button class="arrow right" @click="nextImage">❯</button>
+            <button v-if="imagesLength" class="arrow right" @click="nextImage">❯</button>
         </div>
         <div class="project-card">
             <h3>{{ title }}</h3>
@@ -51,6 +51,9 @@ export default {
         currentImage() {
             return this.images[this.currentIndex];
         },
+        imagesLength() {
+            return this.images.length > 1;
+        }
     },
     methods: {
         nextImage() {
