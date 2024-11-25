@@ -80,7 +80,7 @@ export default {
     align-items: center;
 }
 .project-img {
-    border: 2px solid #f7fff7;
+    border: 2px solid #2f3061;
     border-radius: 8px;
     height: 560px;
     margin-right: 20px;
