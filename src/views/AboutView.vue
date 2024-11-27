@@ -72,7 +72,7 @@ export default {
   flex-direction: column;
   padding-left: 5%;
   flex-grow: 1;
-  
+  white-space: nowrap;
 }
 
 .info-container {
