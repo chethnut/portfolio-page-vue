@@ -126,8 +126,8 @@ a {
 .section-title {
   display: flex;
   justify-content: center;
-  margin-top: 9px;
-  margin-bottom: 20px;
+  margin-top: 26px;
+  margin-bottom: 38px;
 }
 
 .professional-summary {
@@ -136,5 +136,6 @@ a {
   display: inline;
   white-space: no-wrap;
   font-size: 22px;
+  
 }
 </style>
