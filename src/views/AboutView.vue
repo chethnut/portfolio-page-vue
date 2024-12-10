@@ -127,7 +127,7 @@ a {
   display: flex;
   justify-content: center;
   margin-top: 26px;
-  margin-bottom: 37px;
+  margin-bottom: 38px;
 }
 
 .professional-summary {
