@@ -13,7 +13,7 @@
       <p class="school-title-field">Tech Elevator</p>
       <p>Mar 2024 - Jun 2024</p>
       <p class="border-element">Spent three months diving into the intricacies of back and front end development and
-        completed three capstones focusing on object-oriented programming, RESTful API's, relational databasesss, and web
+        completed three capstones focusing on object-oriented programming, RESTful API's, relational databases, and web
         development frameworks</p>
 
       <h4>All Strings Attached</h4>
