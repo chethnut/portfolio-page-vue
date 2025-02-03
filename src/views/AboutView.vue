@@ -40,7 +40,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 /* .content-wrapper {
   display: grid;
   grid-template-rows: auto 1fr auto;

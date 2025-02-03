@@ -64,7 +64,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .school-title-field {
   color: #6ca6c1;
 }
@@ -89,5 +89,30 @@ export default {
 
 .title-wrapper {
   text-align: center;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20%;
+  padding-left: 20%;
+  /* padding-top: 1%; */
+}
+
+.border-element {
+  border-bottom: 2px solid #ffe66d;
+  padding-bottom: 20px;
+}
+
+.blurb {
+  margin-top: 19px;
+  margin-bottom: 40px;
+}
+
+.section-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 26px;
+  margin-bottom: 38px;
 }
 </style>

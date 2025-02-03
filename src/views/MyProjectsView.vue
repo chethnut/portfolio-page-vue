@@ -83,7 +83,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .title-wrapper {
     text-align: center;
 }
