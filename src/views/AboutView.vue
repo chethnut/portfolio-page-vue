@@ -116,7 +116,7 @@ export default {
   flex-direction: column;
   font-weight: bold;
   align-items: flex-start;
-  padding-left: 20%;
+  padding-left: 30%;
 }
 
 a {
