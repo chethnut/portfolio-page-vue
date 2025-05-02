@@ -45,8 +45,8 @@
 
       <h3 class="section-title">Skills & Technologies</h3>
 
-      <p class="skills">Java · C# · JavaScript · HTML · CSS · Vue.js · SQL · Git · JDBC Template · RESTful
-        API · PostgreSQL</p>
+      <p class="skills">Java · JavaScript · HTML · CSS · Vue.js · SQL · Git · Open AI · Prompt Engineering · RESTful
+        API · SQL</p>
     </div>
   </div>
   <FooterComp />
